@@ -1,6 +1,9 @@
-// MSU STARX Exosuit Software
-// Version 2.0 (May 2, 2018)
-// All rights reserved
+/*
+ *	MSU STARX Exosuit
+ *	Software Version 2.3
+ *	Created on: September 30, 2018
+ *	All rights reserved
+ */
 
 #include "exosuit.h"
 
