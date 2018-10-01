@@ -1,6 +1,6 @@
 # STARX Program
 
-### Introduction
+## Introduction
 
 ### Installation
 
