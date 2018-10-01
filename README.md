@@ -20,15 +20,20 @@ Third...
 
 ```
 cd ~
-mkdir starx
-cd starx
 git clone https://github.com/msu-starx/starx.git
 ```
 
 Lastly...
 
 ```
+cd starx
 make
+```
+
+Run...
+
+```
+./starx
 ```
 
 ## Information
