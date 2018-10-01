@@ -1,3 +1,12 @@
+/*
+ *	converter.cpp
+ *
+ *	MSU STARX Exosuit
+ *	Software Version 2.3
+ *	Created on: September 30, 2018
+ *	All rights reserved
+ */
+
 #include "converter.h"
 
 double Converter::convertToVoltage(int adcValue, double adcMultiplier){

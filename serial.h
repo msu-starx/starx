@@ -1,13 +1,22 @@
-// This is start of the header guard
-#ifndef SERIAL_H
-#define SERIAL_H
+/*
+ *	serial.h
+ *
+ *	MSU STARX Exosuit
+ *	Software Version 2.3
+ *	Created on: September 30, 2018
+ *	All rights reserved
+ */
 
-#include <stdio.h>
-#include <unistd.h>
-#include <fcntl.h>
+#ifndef SERIAL_H_
+#define SERIAL_H_
+
+// Standard includes
 #include <errno.h>
-#include <termios.h>
+#include <fcntl.h>
+#include <stdio.h>
 #include <string.h>
+#include <termios.h>
+#include <unistd.h>
 
 class SerialPort {
 	public:
@@ -33,5 +42,4 @@ class SerialPort {
 		char* readPortUntil(char bufferTerminator);
 };
 
-// This is the end of the header guard
-#endif
+#endif // SERIAL_H_

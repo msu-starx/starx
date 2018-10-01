@@ -1,7 +1,16 @@
-// This is start of the header guard
-#ifndef PID_H
-#define PID_H
+/*
+ *	pid.h
+ *
+ *	MSU STARX Exosuit
+ *	Software Version 2.3
+ *	Created on: September 30, 2018
+ *	All rights reserved
+ */
 
+#ifndef PID_H_
+#define PID_H_
+
+// Standard includes
 #include <stdio.h>
 #include <sys/time.h>
 
@@ -40,5 +49,4 @@ class PID {
 		void initialize(void);
 };
 
-// This is the end of the header guard
-#endif
+#endif // PID_H_

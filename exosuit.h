@@ -1,7 +1,16 @@
-// This is start of the header guard
-#ifndef EXOSUIT_H
-#define EXOSUIT_H
+/*
+ *	exosuit.h
+ *
+ *	MSU STARX Exosuit
+ *	Software Version 2.3
+ *	Created on: September 30, 2018
+ *	All rights reserved
+ */
 
+#ifndef EXOSUIT_H_
+#define EXOSUIT_H_
+
+// Local includes
 #include "arduinomicro.h"
 #include "converter.h"
 #include "pid.h"
@@ -66,5 +75,4 @@ class ExoSuit {
 		void initialize(void);
 };
 
-// This is the end of the header guard
-#endif
+#endif // EXOSUIT_H_

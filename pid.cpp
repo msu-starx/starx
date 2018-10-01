@@ -1,3 +1,12 @@
+/*
+ *	pid.cpp
+ *
+ *	MSU STARX Exosuit
+ *	Software Version 2.3
+ *	Created on: September 30, 2018
+ *	All rights reserved
+ */
+
 #include "pid.h"
 
 unsigned long PID::millis(void){

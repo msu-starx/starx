@@ -1,7 +1,16 @@
-// This is start of the header guard
-#ifndef CONVERTER_H
-#define CONVERTER_H
+/*
+ *	converter.h
+ *
+ *	MSU STARX Exosuit
+ *	Software Version 2.3
+ *	Created on: September 30, 2018
+ *	All rights reserved
+ */
 
+#ifndef CONVERTER_H_
+#define CONVERTER_H_
+
+// Standard includes
 #include <cmath>
 #include <iostream>
 #include <sstream>
@@ -20,5 +29,4 @@ class Converter {
 		std::vector<std::string> splitString(const std::string &str, char delimiter);
 };
 
-// This is the end of the header guard
-#endif
+#endif // CONVERTER_H_

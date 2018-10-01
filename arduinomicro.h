@@ -1,10 +1,21 @@
-// This is start of the header guard
-#ifndef ARDUINOMICRO_H
-#define ARDUINOMICRO_H
+/*
+ *	arduinomicro.h
+ *
+ *	MSU STARX Exosuit
+ *	Software Version 2.3
+ *	Created on: September 30, 2018
+ *	All rights reserved
+ */
 
-#include "serial.h"
+#ifndef ARDUINOMICRO_H_
+#define ARDUINOMICRO_H_
+
+// Standard includes
 #include <string>
 #include <vector>
+
+// Local includes
+#include "serial.h"
 
 class ArduinoMicro {
 	public:
@@ -35,5 +46,4 @@ class ArduinoMicro {
 		std::string createPacket(std::string command, std::vector<std::string> parameters);
 };
 
-// This is the end of the header guard
-#endif
+#endif // ARDUINOMICRO_H_

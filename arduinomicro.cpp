@@ -1,4 +1,13 @@
-#include "arduinomicro.h"
+/*
+ *	arduinomicro.cpp
+ *
+ *	MSU STARX Exosuit
+ *	Software Version 2.3
+ *	Created on: September 30, 2018
+ *	All rights reserved
+ */
+
+ #include "arduinomicro.h"
 
 std::string ArduinoMicro::createPacket(std::string command, std::vector<std::string> parameters = {}){
 	std::string message = "";
