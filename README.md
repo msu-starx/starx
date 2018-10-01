@@ -1,9 +1,9 @@
 # STARX Program
 
-# Introduction
+### Introduction
 
-# Installation
+### Installation
 
-# Contact Information
+### Contact Information
 
 thassyo@ieee.org
