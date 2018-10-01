@@ -7,13 +7,12 @@
 ExoSuit sparty;
 
 int main(){
-  sparty.initialize();
-  while(1){
-    sparty.updateADC();
-    sparty.updateSensors();
-    sparty.updatePressurePID();
-    sparty.updatePWM();
-  }
-  //
-  return 0;
+	sparty.initialize();
+	while(1) {
+		sparty.updateADC();
+		sparty.updateSensors();
+		sparty.updatePressurePID();
+		sparty.updatePWM();
+	}
+	return 0;
 }
