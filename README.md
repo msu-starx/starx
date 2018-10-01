@@ -2,8 +2,10 @@
 
 ## Introduction
 
-### Installation
+## Installation
 
-### Contact Information
+## Information
+
+### Contact
 
 thassyo@ieee.org
