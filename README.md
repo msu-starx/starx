@@ -57,7 +57,18 @@ groups
 sudo usermod -a -G dialout <username>
 ```
 
-1.7. Now, if you have the exosuit connected to the computer via USB, you can run the program with the following command:
+1.7. Upload the firmware (.ino) to Arduino Micro using the Arduino IDE. (Note: You can follow this guide to install Arduino IDE on Linux: https://www.arduino.cc/en/Guide/Linux)
+
+Go to _Arduino > Tools_
+
+```
+Board = Arduino/Genuino Micro
+Port = < Port Number >
+Programmer = AVRISP mkII
+```
+
+
+1.8. Now, if you have the exosuit connected to the computer via USB, you can run the program with the following command:
 
 ```
 ./starx
@@ -90,15 +101,17 @@ Go to _Atom > Packages > Atom Beautify > Settings_
 
 For both C and C++ settings, select the following options:
 
-a) Default Beautifier = "Uncrustify"
-
-b) Check "Beautify On Save"
-
-c) Config Path = "< your path >/starx/uncrustify/custom-starx.cfg"
+```
+Default Beautifier = Uncrustify
+Check "Beautify On Save"
+Config Path = < your path >/starx/uncrustify/custom-starx.cfg
+```
 
 Go to _Atom > Preferences > Editor_
 
-Under "Tab Length" enter 4
+```
+Tab Length = 4
+```
 
 2.5. If you already have a GitHub account, update your git settings to match your user account.
 
@@ -106,14 +119,17 @@ Under "Tab Length" enter 4
 git config --global user.name "yourusername"
 git config --global user.email "youremail@address.com"
 ```
-2.6. Please refer to the Git Cheat Sheet to learn command line operations for a GitHub repository control.
+2.6. Please refer to the Git Cheat Sheet to learn command line operations for managing a GitHub repository.
 
 https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 
 ## Information
 
----Under construction---
-
 ### Contact Info
 
 thassyo@ieee.org
+
+---
+
+MSU STARX, Strength Augmenting Robotic eXoskeleton  
+(c) 2017-2018
