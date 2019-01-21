@@ -34,6 +34,7 @@ class ExoSuit {
     #define portName "/dev/ttyACM0" // Arduino port
     #define baudRate 1000000 // Serial baud rate
     public:
+        //Testing
         // Filter
         std::vector<double> u;
         std::vector<double> y;
